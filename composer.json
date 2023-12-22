@@ -1,0 +1,43 @@
+{
+    "name": "swisnl/phpmd-bitbucket",
+    "type": "phpmd-extension",
+    "description": "PHPMD renderer for Bitbucket Pipeline Reports",
+    "keywords": [
+        "phpmd",
+        "PHP Mess Detector",
+        "reporter",
+        "bitbucket",
+        "pipeline",
+        "reports",
+        "testing"
+    ],
+    "homepage": "https://github.com/swisnl/phpmd-bitbucket",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jasper Zonneveld",
+            "email": "jasper@swis.nl",
+            "homepage": "https://github.com/JaZo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "phpmd/phpmd": "^2.0",
+        "swisnl/bitbucket-reports": "^0.1"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swis\\PHPMD\\Renderer\\": "src"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
