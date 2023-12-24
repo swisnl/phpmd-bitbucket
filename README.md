@@ -26,7 +26,8 @@ phpmd . "\Swis\PHPMD\Renderer\BitbucketRenderer" phpmd.ruleset.xml
 
 ## Screenshots
 
-TODO
+![Annotations](/img/annotations.png)
+![Report](/img/report.png)
 
 ## Changelog
 
